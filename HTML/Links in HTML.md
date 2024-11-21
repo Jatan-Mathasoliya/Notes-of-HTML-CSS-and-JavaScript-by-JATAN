@@ -77,4 +77,26 @@ a:hover {
 }
 a:active {
     color: green;
-}```
+}
+```
+
+### Additional Attributes
+
+ **1. `target`**  
+The `target` attribute specifies where to open the linked document.  
+    -  `_blank`: Opens the link in a new tab or window.  
+        `<a href="https://example.com" target="_blank">Open in New Tab</a>`  
+    -  `_self`: Opens the link in the same frame (default behavior).   
+    - `_parent`: Opens the link in the parent frame.  
+    - `_top`: Opens the link in the full body of the window.  
+
+ **2.`title`** 
+The `title` attribute provides additional information about the link, which appears as a tooltip when the user hovers over the link.
+
+    `<a href="https://example.com" title="Visit Example Site">Hover Over Me</a>`
+
+    
+3. `rel`**:**
+The `rel` attribute specifies the relationship between the current document and the linked document. It is commonly used with the `nofollow` value to instruct search engines not to follow the link.
+
+    `<a href="https://example.com" rel="nofollow">Nofollow Link</a>`
