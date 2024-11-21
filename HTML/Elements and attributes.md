@@ -1,7 +1,7 @@
 ## **HTML Elements And Attributes**
 
 ### **Elements :**
-- HTML Elemets are foundational Components of HTML.HTML Elements is difine stucture and content of a web page.
+- HTML Elemets are foundational Components of HTML.HTML Elements is define stucture and content of a web page.
 - HTML elements usually consist of a start tag, content, and an end tag.
 
 **Ex:**
